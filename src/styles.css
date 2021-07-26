@@ -6,8 +6,12 @@
 
 .container {
   background: url(https://static01.nyt.com/images/2019/12/17/books/review/17fatbooks/17fatbooks-superJumbo.jpg);
+  height: 100%;
   background-repeat: no-repeat;
   background-size: auto;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
 }
 
 .container img {
@@ -46,11 +50,14 @@
   color: black; /* Black text color */
 }
 
-#myModal {
-  text-align: center;
-  color: orange;
-}
-
 .imgButton {
   display: inline-block;
+}
+
+.form-group {
+  width: 300px;
+}
+
+.max-control {
+  width: 150px;
 }

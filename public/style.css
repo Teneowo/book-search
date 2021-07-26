@@ -32,9 +32,6 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-* {
-  color: white;
-}
 
 .large_font_blue_box {
   font-size: 1.3em;
